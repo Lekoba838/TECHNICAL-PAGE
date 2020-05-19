@@ -1,0 +1,109 @@
+header {
+    font-size: 30px;
+    font-weight: thin;
+    color: black;
+  }
+  #header {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Open Sans", Arial, sans-serif;
+      line-height: 1.6em;
+      color: #4d4e53;
+      font-size: 15px;
+  }
+  code {
+      display: block;
+      text-align: left;
+      white-space: pre;
+      position: relative;
+      word-break: normal;
+      word-wrap: normal;
+      line-height: 2;
+      background-color: #f7f7f7;
+      margin: 10px;
+      border-radius: 5px;
+      padding: 10px;
+  }
+  
+  #navbar {
+    position: fixed;
+    height: 100%;
+    border-right: 2px solid gray;
+  }
+  
+  #navbar a {
+     display: block;
+      padding: 10px 30px;
+      color: #4d4e53;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 17px;    
+  }
+  
+  ul.a {
+    list-style: circle;
+    margin: 52px;
+  }
+  
+  #navbar ul {
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 0px;
+  }
+  #navbar li {
+    border : 1px solid ;
+    width: 300px;
+    position: relative;
+  }
+  .splitright {
+    margin-left: 370px;
+  }
+  @media screen and (max-width: 600px) {
+         #navbar {
+         height: 287px;
+         border-right: 2px solid gray;
+         width: 505px;
+         position: relative;
+        }
+  
+        #navbar li {
+          border: 1px solid;
+          width: 480px;
+       }
+        .splitright {
+          margin-left: 20px;
+          margin-top: 0px; 
+        }
+  } 
+  @media (min-width:600px) and (max-width:768px) {
+    #navbar {
+      height: 314px;
+      border-right: 2px solid gray;
+      width: 666px;
+      position: relative;
+    }
+    #navbar li {
+      border: 1px solid;
+     width: 700px;
+    
+   }
+   .splitright {
+    margin-left: 20px;
+    margin-top: 15px;
+   }
+  }
+  
+  
+    
+  
+    
+  
+  
+  
+  
+  
+  
